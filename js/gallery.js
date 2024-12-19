@@ -94,13 +94,11 @@ const createGaleryCard = pictInfo => {
     const modalDescription= event.target.alt;
     const modalOriginal= event.target.dataset.source;
     const modalWindowInstance = basicLightbox.create(`
-        <div class="modal">
-            <img class="modal-image"
+        <img class="modal-image"
                  src="${modalOriginal}"
                  alt="${modalDescription}"
             />
-        </div>
-    `);
+        `);
     modalWindowInstance.show();
 });
 

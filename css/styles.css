@@ -35,15 +35,11 @@ ul,ol{margin: 0;   padding: 0  ;}
 .gallery-item {
  
 }
-.modal{
-  width: 1440px;
-  height: 696px;
-  display: block;
-  text-align: center;
-}
+
   
 .modal-image{
-  /* display: block; */
   margin-left: auto;
   margin-right: auto;
+  /* display: block; */
+  text-align: center;
  }
